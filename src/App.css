@@ -1,0 +1,20 @@
+body {
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Garantiza que el contenido ocupe al menos la altura de la ventana */
+}
+
+.App {
+  max-width: 1200px; /* Establece el ancho máximo de tu contenedor */
+  width: 100%;
+  text-align: center;
+  padding: 20px; /* Opcional, agrega relleno si lo deseas */
+  box-sizing: border-box; /* Asegura que el relleno no aumente el ancho total */
+  color: #222;
+}
+
+
